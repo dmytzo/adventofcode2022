@@ -149,5 +149,5 @@ func dayThirteenTaskTwo(input []string) int {
 
 func DayThirteen() {
 	input := inputLines("input/13.txt")
-	fmt.Printf("### DAY 12 ###\n 1: %d\n 2: %d\n", dayThirteenTaskOne(input), dayThirteenTaskTwo(input))
+	fmt.Printf("### DAY 13 ###\n 1: %d\n 2: %d\n", dayThirteenTaskOne(input), dayThirteenTaskTwo(input))
 }
