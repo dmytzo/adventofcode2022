@@ -5,10 +5,6 @@ import (
 	"strings"
 )
 
-type coord struct {
-	x, y int
-}
-
 func move(step, length int, direction string, units []coord, steps map[string]bool) {
 	for s := 0; s < step; s++ {
 		switch direction {
